@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<mei meiversion="4.0.0" xmlns="http://www.music-encoding.org/ns/mei">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>Titel</title>
+            </titleStmt>
+            <pubStmt/>
+        </fileDesc>
+    </meiHead>
+    <music>
+        <body>
+            <mdiv>
+                <score>
+                    <scoreDef meter.count="4" meter.unit="4" meter.sym="common" key.sig="1f">
+                       <staffGrp symbol="bracket" bar.thru="false">
+                                <staffDef n="1" lines="5" clef.line="2" clef.shape="G" label="Sopran"/>
+                                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" label="Alter"/>
+                                <staffDef n="3" lines="5" clef.line="2" clef.shape="GG" label="Tenor"/>
+                                <staffDef n="4" lines="5" clef.line="4" clef.shape="F" label="Bass"/>
+                            </staffGrp>
+                    </scoreDef>
+                    <section>
+                        <measure n="1">
+                            <staff n="1">
+                                <layer n="1">
+                                  <note pname="c" oct="4" dur="8" stem.dir="up"/>
+                                </layer>
+                            </staff>
+                           <staff n="2">
+                                <layer n="1">
+                                    <note/>
+                                </layer>
+                            </staff>
+                           <staff n="3">
+                                <layer n="1">
+                                    <note/>
+                                </layer>
+                            </staff>
+                           <staff n="4">
+                                <layer n="1">
+                                    <note/>
+                                </layer>
+                            </staff>
+                        </measure>
+                       <measure n="2">
+                             <staff n="1">
+                                <layer n="1">
+                                  <note pname="c" oct="4" dur="8" stem.dir="up"/>
+                                </layer>
+                            </staff>
+                           <staff n="2">
+                                <layer n="1">
+                                    <note/>
+                                </layer>
+                            </staff>
+                           <staff n="3">
+                                <layer n="1">
+                                    <note/>
+                                </layer>
+                            </staff>
+                           <staff n="4">
+                                <layer n="1">
+                                    <note/>
+                                </layer>
+                            </staff>                         
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>
